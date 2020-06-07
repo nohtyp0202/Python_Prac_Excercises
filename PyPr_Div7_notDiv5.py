@@ -1,1 +1,17 @@
-print "Hello"
+# Question:
+# Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5,
+# between 2000 and 3200 (both included).
+# The numbers obtained should be printed in a comma-separated sequence on a single line.
+#
+# Hints:
+# Consider use range(#begin, #end) method
+
+# Pseudo Code
+# numbers divisible by 7
+# numbers not divisible by 5
+# range 2000 - 3201
+# print coma seperated sequence
+
+for i in range(2000,3201):
+    if i % 7 ==0 and i % 5 != 0:
+        print i, "," ,
